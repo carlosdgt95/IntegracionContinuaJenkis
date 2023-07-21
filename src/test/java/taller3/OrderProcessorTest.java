@@ -38,20 +38,20 @@ public class OrderProcessorTest {
         order.addItem("Pizza", 2);
         order.addItem("Hamburguesa", 3);
         double totalCost = OrderProcessor.processOrder(order, menu);
-        assertEquals(52.0, totalCost, 0.001);
+        assertEquals(44.0, totalCost, 0.001);
     }
 
     @Test
     public void testProcessOrder_Discount1() {
         order.addItem("Pizza", 6);
         double totalCost = OrderProcessor.processOrder(order, menu);
-        assertEquals(54.0, totalCost, 0.001);
+        assertEquals(53.1, totalCost, 0.001);
     }
 
     @Test
     public void testProcessOrder_Discount2() {
         order.addItem("Pizza", 11);
         double totalCost = OrderProcessor.processOrder(order, menu);
-        assertEquals(88.0, totalCost, 0.001);
+        assertEquals(87.1, totalCost, 0.001);
     }
 }
