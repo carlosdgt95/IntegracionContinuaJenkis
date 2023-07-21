@@ -35,8 +35,8 @@ public class OrderProcessorTest {
 
     @Test
     public void testProcessOrder_NoDiscount() {
-        order.addItem("Pizza", 4); // 4 * 10.0 = 40.0
-        order.addItem("Hamburguesa", 2); // 2 * 8.0 = 16.0
+        order.addItem("Pizza", 2);
+        order.addItem("Hamburguesa", 3);
         double totalCost = OrderProcessor.processOrder(order, menu);
         assertEquals(52.0, totalCost, 0.001);
     }
