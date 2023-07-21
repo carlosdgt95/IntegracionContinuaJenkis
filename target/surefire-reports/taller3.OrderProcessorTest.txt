@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: taller3.OrderProcessorTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s -- in taller3.OrderProcessorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.080 s -- in taller3.OrderProcessorTest

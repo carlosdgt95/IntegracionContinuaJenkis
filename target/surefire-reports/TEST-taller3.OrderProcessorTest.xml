@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="taller3.OrderProcessorTest" time="0.087" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="taller3.OrderProcessorTest" time="0.08" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="EC"/>
     <property name="sun.boot.library.path" value="L:\java\bin"/>
-    <property name="sun.java.command" value="C:\Users\Carlos Gomez\AppData\Local\Temp\surefire17890977900031678209\surefirebooter-20230721141921467_3.jar C:\Users\Carlos Gomez\AppData\Local\Temp\surefire17890977900031678209 2023-07-21T14-19-21_300-jvmRun1 surefire-20230721141921467_1tmp surefire_0-20230721141921467_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Carlos Gomez\AppData\Local\Temp\surefire17984420011690408051\surefirebooter-20230721150141132_3.jar C:\Users\Carlos Gomez\AppData\Local\Temp\surefire17984420011690408051 2023-07-21T15-01-40_950-jvmRun1 surefire-20230721150141132_1tmp surefire_0-20230721150141132_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Carlos Gomez\eclipse-workspace\taller3\target\test-classes;C:\Users\Carlos Gomez\eclipse-workspace\taller3\target\classes;C:\Users\Carlos Gomez\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\Carlos Gomez\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Carlos Gomez\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\Carlos Gomez\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\Carlos Gomez\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Carlos Gomez\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Carlos Gomez\AppData\Local\Temp\surefire17890977900031678209\surefirebooter-20230721141921467_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Carlos Gomez\AppData\Local\Temp\surefire17984420011690408051\surefirebooter-20230721150141132_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
@@ -57,9 +57,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testProcessOrder_NoDiscount" classname="taller3.OrderProcessorTest" time="0.04"/>
-  <testcase name="testProcessOrder_ExceedsMaxItems" classname="taller3.OrderProcessorTest" time="0.001"/>
-  <testcase name="testProcessOrder_NoItems" classname="taller3.OrderProcessorTest" time="0.002"/>
+  <testcase name="testProcessOrder_NoDiscount" classname="taller3.OrderProcessorTest" time="0.046"/>
+  <testcase name="testProcessOrder_ExceedsMaxItems" classname="taller3.OrderProcessorTest" time="0.002"/>
+  <testcase name="testProcessOrder_NoItems" classname="taller3.OrderProcessorTest" time="0.001"/>
   <testcase name="testProcessOrder_Discount1" classname="taller3.OrderProcessorTest" time="0.001"/>
-  <testcase name="testProcessOrder_Discount2" classname="taller3.OrderProcessorTest" time="0.001"/>
+  <testcase name="testProcessOrder_Discount2" classname="taller3.OrderProcessorTest" time="0.002"/>
 </testsuite>
